@@ -35,8 +35,10 @@
 }
 
 .header__title {
+  position:absolute;
+  left: 64px;
   align-self: center;
-  margin-left: 64px;
+  margin: 0;
   color: black;
   width: 730px;
   z-index: 3;
@@ -47,6 +49,8 @@
 
 .header__subtitle {
   position: absolute;
+  margin: 0;
+  
   left: 64px;
   bottom: 30px;
   color: black;
@@ -123,10 +127,11 @@
   font-size: 24px;
   line-height: 34px;
   font-weight: normal;
+  margin-bottom: 30px;
 }
 
-.two-columns__paragraph:nth-of-type(2n) {
-  margin: 30px 0;
+.two-columns__paragraph:last-of-type {
+  margin: 0;
 }
 
 .two-columns__span-acent {
@@ -173,7 +178,6 @@
 
 .table__heading {
   margin: 0;
-  padding-bottom: 20px;
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
@@ -183,16 +187,8 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-}
-
-.table__text:nth-child(even) { 
-  margin: 0; 
-}
-
-.table__text:nth-child(odd) { 
   margin-top: 20px;
   margin-bottom: 0;
-  padding: 0;
 }
 
 .feynman {
@@ -208,6 +204,7 @@
 
 .feynman__title {
   display: flex;
+  margin-top: 0;
   width: 648px;
   line-height: 1.15;
   font-size: 120px;
