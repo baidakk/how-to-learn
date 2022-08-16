@@ -1,12 +1,3 @@
-@import url(/blocks/kaufman/section-subtitle/_theme/_dark/section-subtitle_theme_dark.css);
-@import url(/blocks/kaufman/section-title/_theme/_dark/section-title_theme_dark.css);
-@import url(/blocks/digits/table/table.css);
-@import url(/blocks/digits/table/_theme/_dark/table_theme_dark.css);
-@import url(/blocks/digits/table/__cell/_theme/_dark/table__cell_theme_dark.css);
-@import url(/blocks/digits/table/__heading/_theme/_dark/table__heading_theme_dark.css);
-@import url(/blocks/digits/table/__text/_theme/_dark/table__text_theme_dark.css);
-@import url(/blocks/kaufman/__triangle/kaufman__triangle.css);
-
 .kaufman {
     display: flex;
     position: relative;

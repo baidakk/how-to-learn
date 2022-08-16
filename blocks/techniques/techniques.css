@@ -1,7 +1,5 @@
-@import url(/blocks/techniques/cards/cards.css);
-
 .techniques {
     width: 80%;
     padding-top: 100px;
-    margin: auto    ;
+    margin: auto;
 }

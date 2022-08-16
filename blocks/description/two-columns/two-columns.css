@@ -1,8 +1,3 @@
-@import url(/blocks/description/two-columns/__brief/two-columns__brief.css);
-@import url(/blocks/description/two-columns/__main-text/two-columns__main-text.css);
-@import url(/blocks/description/two-columns/__paragraph/two-columns__paragraph.css);
-@import url(/blocks/description/two-columns/__span-acent/two-columns__span-acent.css);
-
 .two-columns {
   margin: 0;
   padding: 0;
