@@ -4,5 +4,7 @@
     margin: auto;
     justify-content: center;
     padding-top: 50px;
+    padding-left: 0;
     margin-bottom: -55px;
+    list-style-type: none;
 }

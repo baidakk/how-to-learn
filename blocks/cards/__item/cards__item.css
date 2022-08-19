@@ -5,6 +5,7 @@
     margin-right: 100px;
     align-content: center;
     padding-top: 60px;
+    padding-left: 0;
 }
 
 .cards__item:nth-of-type(3n) {
